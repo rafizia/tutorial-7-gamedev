@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://chguh2vlkqrtk"
+path="res://.godot/imported/barrier_corner.obj-928ca0fb93f6f28686c0a1bcc61174b8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/barrier_corner.obj-928ca0fb93f6f28686c0a1bcc61174b8.mesh"]
+
+source_file="res://assets/obj/barrier_corner.obj"
+dest_files=["res://.godot/imported/barrier_corner.obj-928ca0fb93f6f28686c0a1bcc61174b8.mesh", "res://.godot/imported/barrier_corner.obj-928ca0fb93f6f28686c0a1bcc61174b8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

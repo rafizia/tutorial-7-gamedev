@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dir0fyfhycfm2"]
+
+[ext_resource type="PackedScene" uid="uid://vf70dma4ldrr" path="res://assets/fbx/coin.fbx" id="1_6fda5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_s8qeh"]
+size = Vector3(0.335968, 0.125183, 0.349487)
+
+[node name="Coin" type="RigidBody3D" groups=["pickable"]]
+
+[node name="coin" parent="." instance=ExtResource("1_6fda5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0193977, 0, -0.0286385)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0111542, 3.05176e-05, -0.022522)
+shape = SubResource("BoxShape3D_s8qeh")

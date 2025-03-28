@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bdf60mcch2vua"
+path="res://.godot/imported/wall_corner_small.obj-5f38ddac5273798ad238e1dc1b52359d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_corner_small.obj-5f38ddac5273798ad238e1dc1b52359d.mesh"]
+
+source_file="res://assets/obj/wall_corner_small.obj"
+dest_files=["res://.godot/imported/wall_corner_small.obj-5f38ddac5273798ad238e1dc1b52359d.mesh", "res://.godot/imported/wall_corner_small.obj-5f38ddac5273798ad238e1dc1b52359d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

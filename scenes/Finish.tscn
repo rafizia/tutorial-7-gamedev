@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://da7kskgirauv2"]
+
+[ext_resource type="Script" path="res://finish.gd" id="1_6rees"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_s1e3c"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_qp6tm"]
+
+[node name="Finish" type="Area3D"]
+script = ExtResource("1_6rees")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_s1e3c")
+
+[node name="CSGMesh3D" type="CSGMesh3D" parent="."]
+mesh = SubResource("SphereMesh_qp6tm")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

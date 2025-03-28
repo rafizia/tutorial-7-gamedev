@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://booswqsg3du5l"
+path="res://.godot/imported/wall_corner_gated.obj-d17b36b8b396ded3ed049fb1f47d899b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_corner_gated.obj-d17b36b8b396ded3ed049fb1f47d899b.mesh"]
+
+source_file="res://assets/obj/wall_corner_gated.obj"
+dest_files=["res://.godot/imported/wall_corner_gated.obj-d17b36b8b396ded3ed049fb1f47d899b.mesh", "res://.godot/imported/wall_corner_gated.obj-d17b36b8b396ded3ed049fb1f47d899b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

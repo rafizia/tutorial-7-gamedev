@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://cbhdcu5x8rind"]
+
+[ext_resource type="PackedScene" uid="uid://b7jw7rb2jqdah" path="res://assets/fbx/wall.fbx" id="1_h3w5g"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vjile"]
+size = Vector3(4.03601, 7.95068, 1.00342)
+
+[node name="StaticBody3D" type="StaticBody3D"]
+
+[node name="wall" parent="." instance=ExtResource("1_h3w5g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.682007, 0, -0.0208969)
+
+[node name="wall2" parent="." instance=ExtResource("1_h3w5g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.682007, 3.95751, -0.0208969)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.690369, 3.95044, -0.00170898)
+shape = SubResource("BoxShape3D_vjile")

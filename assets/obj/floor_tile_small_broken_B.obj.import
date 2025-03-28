@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dyupm5mqtja3q"
+path="res://.godot/imported/floor_tile_small_broken_B.obj-0fe1d42c208df86c2de2245bca914a4c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/floor_tile_small_broken_B.obj-0fe1d42c208df86c2de2245bca914a4c.mesh"]
+
+source_file="res://assets/obj/floor_tile_small_broken_B.obj"
+dest_files=["res://.godot/imported/floor_tile_small_broken_B.obj-0fe1d42c208df86c2de2245bca914a4c.mesh", "res://.godot/imported/floor_tile_small_broken_B.obj-0fe1d42c208df86c2de2245bca914a4c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

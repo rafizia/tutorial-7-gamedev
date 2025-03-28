@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://cio51h33alqk4"]
+
+[ext_resource type="PackedScene" uid="uid://b10nj4m302lla" path="res://scenes/Player.tscn" id="1_clfau"]
+[ext_resource type="PackedScene" uid="uid://b8xcrk8dahrf" path="res://scenes/World 1.tscn" id="2_w554w"]
+[ext_resource type="PackedScene" uid="uid://da7kskgirauv2" path="res://scenes/Finish.tscn" id="3_km6fx"]
+[ext_resource type="PackedScene" uid="uid://j1lxdpfsw48t" path="res://scenes/KillZone.tscn" id="4_y226n"]
+
+[node name="Level 1" type="Node3D"]
+
+[node name="Player" parent="." instance=ExtResource("1_clfau")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 21.4359)
+
+[node name="World 1" parent="." instance=ExtResource("2_w554w")]
+
+[node name="Finish" parent="." instance=ExtResource("3_km6fx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -69.4591)
+sceneName = "Win Screen"
+
+[node name="KillZone" parent="." instance=ExtResource("4_y226n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -19.54, 5)

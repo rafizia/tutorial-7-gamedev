@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dwl2ae464wkrs"]
+
+[ext_resource type="PackedScene" uid="uid://cymetpmvx1sjr" path="res://assets/fbx/keg.fbx" id="1_ds17a"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ch0ci"]
+size = Vector3(1.79303, 2.05423, 1.96686)
+
+[node name="StaticBody3D" type="StaticBody3D"]
+
+[node name="keg" parent="." instance=ExtResource("1_ds17a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.338989, 0, -0.152313)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.336029, 1.02718, -0.112213)
+shape = SubResource("BoxShape3D_ch0ci")

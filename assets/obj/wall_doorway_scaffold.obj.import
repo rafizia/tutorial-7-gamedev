@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://p35nf5jt0xr1"
+path="res://.godot/imported/wall_doorway_scaffold.obj-cf00134721bf0d3f8689a94bbff04619.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_doorway_scaffold.obj-cf00134721bf0d3f8689a94bbff04619.mesh"]
+
+source_file="res://assets/obj/wall_doorway_scaffold.obj"
+dest_files=["res://.godot/imported/wall_doorway_scaffold.obj-cf00134721bf0d3f8689a94bbff04619.mesh", "res://.godot/imported/wall_doorway_scaffold.obj-cf00134721bf0d3f8689a94bbff04619.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

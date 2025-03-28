@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dumg6l4ygceph"
+path="res://.godot/imported/trunk_medium_A.obj-4a8bd0be0510345f16c310ec6d3e49ea.mesh"
+
+[deps]
+
+files=["res://.godot/imported/trunk_medium_A.obj-4a8bd0be0510345f16c310ec6d3e49ea.mesh"]
+
+source_file="res://assets/obj/trunk_medium_A.obj"
+dest_files=["res://.godot/imported/trunk_medium_A.obj-4a8bd0be0510345f16c310ec6d3e49ea.mesh", "res://.godot/imported/trunk_medium_A.obj-4a8bd0be0510345f16c310ec6d3e49ea.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

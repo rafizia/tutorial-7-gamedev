@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://d3e0kb4nrlf1j"]
+
+[ext_resource type="Texture2D" uid="uid://cxkmwk6kovf3" path="res://assets/Keanu.png" id="1_ulg6y"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1.52588e-05, -3.8147e-06)
+scale = Vector2(1.18827, 1.18827)
+texture = ExtResource("1_ulg6y")
+
+[node name="Camera2D" type="Camera2D" parent="."]
