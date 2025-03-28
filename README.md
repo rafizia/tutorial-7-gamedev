@@ -36,7 +36,7 @@ Jika pemain menekan tombol `shift` maka pemain akan memasuki mode sprint di mana
 Memungkinkan pemain untuk mengambil dan membawa sebuah item.
 
 #### Penjelasan
-Item yang saya buat adalah item berbentuk sebuah koin emas raksasa yang bertipe RigidBody3D. Pemain dapat mengambil item ini dengan menekan tombol E pada keyboard serta meletakannya kembali dengan tombol yang sama.
+Item yang saya buat adalah item berbentuk sebuah koin emas raksasa yang bertipe RigidBody3D. Pemain dapat mengambil item ini dengan menekan tombol E pada keyboard serta meletakannya kembali dengan tombol yang sama.<br>
 ![alt text](https://github.com/rafizia/tutorial-7-gamedev/blob/main/image/player.png?raw=true)
 <br>
 ![alt text](https://github.com/rafizia/tutorial-7-gamedev/blob/main/image/coin.png?raw=true)<br>
